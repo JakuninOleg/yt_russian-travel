@@ -1,0 +1,11 @@
+.video__container {
+  display: grid;
+  gap: 8px
+}
+
+@media screen and (min-width: 768px) {
+  .video__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}

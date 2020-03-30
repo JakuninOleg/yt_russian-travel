@@ -1,0 +1,11 @@
+.places__place-website {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .places__place-website {
+    display: grid;
+    gap: 10px;
+    align-self: flex-end;
+  }
+}

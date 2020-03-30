@@ -1,0 +1,5 @@
+@media screen and (min-width: 1280px) {
+  .section_wide {
+    max-width: 1184px;
+  }
+}

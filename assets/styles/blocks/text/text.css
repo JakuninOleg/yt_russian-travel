@@ -1,0 +1,8 @@
+@import url(./_bold/text_bold.css);
+@import url(./_center/text_center.css);
+
+.text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}

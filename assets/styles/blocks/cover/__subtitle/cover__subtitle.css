@@ -1,0 +1,19 @@
+.cover__subtitle {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+  max-width: 400px;
+  margin: 0 auto 48px;
+  text-align: center;
+  z-index: 1;
+  transition: opacity .32s ease-out;
+}
+
+.cover__subtitle:hover {
+  opacity: .5;
+}
+
+.cover__subtitle:hover ~ .cover__overlay {
+  background-color: rgba(0, 0, 0, .5);
+}

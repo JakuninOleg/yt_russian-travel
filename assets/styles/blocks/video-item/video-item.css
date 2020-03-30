@@ -1,0 +1,20 @@
+@import url(./__bg/video-item__bg.css);
+@import url(./__bg/_kamchatka/video-item__bg_kamchatka.css);
+@import url(./__bg/_observatory/video-item__bg_observatoria.css);
+@import url(./__overlay/video-item__overlay.css);
+@import url(./__text-container/video-item__text-container.css);
+@import url(./__icon/video-item__icon.css);
+@import url(./__duration/video-item__duration.css);
+@import url(./__title/video-item__title.css);
+@import url(./__subtitle/video-item__subtitle.css);
+
+.video-item {
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+  border-radius: 2%;
+  height: 323px;
+  justify-content: space-between;
+  text-decoration: none;
+  position: relative;
+}

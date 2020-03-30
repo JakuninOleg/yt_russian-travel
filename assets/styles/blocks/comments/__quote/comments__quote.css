@@ -1,0 +1,9 @@
+.comments__quote {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 42px;
+  margin-bottom: 16px;
+  text-align: start;
+  order: 2;
+}

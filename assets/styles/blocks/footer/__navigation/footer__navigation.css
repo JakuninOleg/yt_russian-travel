@@ -1,0 +1,12 @@
+.footer__navigation {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 850px) {
+  .footer__navigation {
+    margin: 0;
+    grid-template-columns: repeat(5, max-content);
+  }
+}

@@ -1,0 +1,29 @@
+@import url(./__place/places__place.css);
+@import url(./__website/places__place-website.css);
+@import url(./__url-heading/places__place-url-heading.css);
+@import url(./__url/places__place-url.css);
+@import url(./__text/places__text.css);
+
+.places {
+  margin-bottom: 102px;
+  display: grid;
+  gap: 72px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

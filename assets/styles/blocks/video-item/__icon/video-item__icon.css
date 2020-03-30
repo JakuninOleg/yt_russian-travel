@@ -1,0 +1,15 @@
+.video-item__icon {
+    max-width: 41px;
+    margin-top: 5%;
+    margin-left: 5%;
+    z-index: 1;
+    transition: opacity .32s ease-out;
+  }
+
+  .video-item__icon:hover {
+    opacity: .5;
+  }
+
+  .video-item__icon:hover ~ .video-item__overlay {
+    background-color: rgba(0, 0, 0, .5);
+  }

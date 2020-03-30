@@ -1,0 +1,7 @@
+.places__place-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  display: grid;
+  gap: 24px;
+}

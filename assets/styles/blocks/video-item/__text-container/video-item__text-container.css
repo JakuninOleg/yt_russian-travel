@@ -1,0 +1,16 @@
+.video-item__text-container {
+  color: white;
+  padding-left: 30px;
+  z-index: 1;
+  padding-bottom: 30px;
+  text-decoration: none;
+  transition: opacity 0.32s ease-out;
+}
+
+.video-item__text-container:hover {
+  opacity: 0.5;
+}
+
+.video-item__text-container:hover ~ .video-item__overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}

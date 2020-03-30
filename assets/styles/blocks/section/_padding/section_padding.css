@@ -1,0 +1,21 @@
+.section_padding {
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .section_padding {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section_padding {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section_padding {
+    padding: 0;
+  }
+}
